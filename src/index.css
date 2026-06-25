@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;700&family=Inter:wght@400;500;700&family=Tajawal:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Default Light Mode CSS Variables */
+  :root {
+    --primary-50: #f0fdf4;
+    --primary-100: #dcfce7;
+    --primary-300: #86efac;
+    --primary-500: #16a34a;
+    --primary-600: #15803d;
+    --primary-700: #166534;
+    --primary-900: #14532d;
+
+    --danger-50: #fef2f2;
+    --danger-100: #fee2e2;
+    --danger-500: #dc2626;
+    --danger-600: #b91c1c;
+    --danger-700: #991b1b;
+
+    --canvas-base: #ffffff;
+    --canvas-secondary: #f8fafc;
+    --canvas-tertiary: #f1f5f9;
+    --border-default: #e2e8f0;
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --text-muted: #94a3b8;
+
+    --font-sans: 'Inter', sans-serif;
+    --toast-slide-from: 120%;
+  }
+
+  /* Dark Mode Override CSS Variables */
+  .dark {
+    --primary-50: #0d2a1a;
+    --primary-100: #113c24;
+    --primary-300: #156035;
+    --primary-500: #22c55e; /* Enhanced AAA contrast */
+    --primary-600: #4ade80;
+    --primary-700: #86efac;
+    --primary-900: #dcfce7;
+
+    --danger-50: #450a0a;
+    --danger-100: #7f1d1d;
+    --danger-500: #ef4444; /* Enhanced AAA contrast */
+    --danger-600: #f87171;
+    --danger-700: #fca5a5;
+
+    --canvas-base: #0a0f0d;
+    --canvas-secondary: #131a17;
+    --canvas-tertiary: #1c2622;
+    --border-default: #2a3733;
+    --text-primary: #f1f5f9;
+    --text-secondary: #cbd5e1;
+    --text-muted: #64748b;
+  }
+
+  /* Directional overrides (LTR/RTL) */
+  [dir="ltr"] {
+    --font-sans: 'Inter', sans-serif;
+    --toast-slide-from: 120%;
+  }
+
+  [dir="rtl"] {
+    --font-sans: 'Cairo', sans-serif;
+    --toast-slide-from: -120%;
+  }
+
+  body {
+    background-color: var(--canvas-base);
+    color: var(--text-primary);
+    font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+    transition-property: background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 200ms;
+  }
+}
+
+@layer utilities {
+  /* Custom Shimmer Skeleton background */
+  .shimmer-bg {
+    background: linear-gradient(
+      90deg,
+      var(--canvas-secondary) 25%,
+      var(--canvas-tertiary) 50%,
+      var(--canvas-secondary) 75%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite linear;
+  }
+}

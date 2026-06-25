@@ -1,0 +1,121 @@
+{
+  "common": {
+    "next": "Continuer",
+    "back": "Retour",
+    "save": "Enregistrer la Configuration",
+    "loading": "Chargement...",
+    "email": "Adresse E-mail",
+    "password": "Mot de passe",
+    "status": "Statut",
+    "error": "Erreur",
+    "success": "Succès",
+    "test": "Tester la Connexion"
+  },
+  "countries": {
+    "pakistan": "Pakistan",
+    "india": "Inde",
+    "angola": "Angola",
+    "morocco": "Maroc",
+    "algeria": "Algérie",
+    "egypt": "Égypte"
+  },
+  "categories": {
+    "tourist": "Visa Touristique",
+    "business": "Visa d'Affaires",
+    "student": "Visa d'Études",
+    "family": "Visa de Visite Familiale"
+  },
+  "welcome": {
+    "title": "Bienvenue sur Velix VFS Automator",
+    "tagline": "Assistant de bureau d'entreprise pour planifier les créneaux de réservation de visa VFS Global. Analyse automatiquement la disponibilité des centres, gère les profils des candidats et vous alerte à l'ouverture des créneaux.",
+    "cta": "Démarrer l'installation",
+    "language": "Langue"
+  },
+
+  "country_select": {
+    "title": "Sélection des Pays Cibles",
+    "description": "Choisissez un ou plusieurs pays de destination pour automatiser la recherche. Vous configurerez les comptes et préférences VAC à l'étape suivante.",
+    "min_selection_alert": "Veuillez sélectionner au moins un pays pour continuer."
+  },
+  "accounts": {
+    "title": "Configuration des Comptes VFS",
+    "description": "Configurez les identifiants du portail et les catégories de visa pour chaque pays sélectionné. Vous pouvez ajouter plusieurs profils de candidats par pays.",
+    "country_setup": "Configuration pour le {country}",
+    "add_account": "Ajouter Candidat / Profil VFS",
+    "add_applicant": "Ajouter un Candidat",
+    "remove_applicant": "Retirer",
+    "vac_label": "Centre de demande de visa (VAC)",
+    "category_label": "Catégorie de Visa",
+    "firstname": "Prénom",
+    "lastname": "Nom",
+    "passport": "Numéro de Passeport",
+    "no_applicants": "Au moins un candidat doit être ajouté.",
+    "validation_error": "Veuillez remplir correctement les champs email, mot de passe et candidat."
+  },
+  "notifications": {
+    "title": "Configuration des Notifications",
+    "description": "Soyez informé immédiatement lorsqu'un créneau est trouvé. Configurez les popups de bureau, les alarmes sonores ou les webhooks Telegram.",
+    "desktop_label": "Activer les Alertes Bureau",
+    "desktop_desc": "Affiche des notifications système instantanées lors de la réservation.",
+    "sound_label": "Activer l'Alarme Sonore",
+    "sound_desc": "Joue un son d'alerte en boucle lorsque des créneaux sont actifs.",
+    "telegram_label": "Intégration du Webhook Telegram",
+    "telegram_desc": "Envoyez des alertes en temps réel à un canal ou groupe Telegram.",
+    "telegram_token": "Jeton d'API du Bot Telegram",
+    "telegram_chatid": "Identifiant de la discussion",
+    "test_button": "Envoyer un Message de Test",
+    "test_sending": "Test de connexion au bot Telegram...",
+    "test_success": "Alerte de test envoyée avec succès à l'API Telegram.",
+    "test_error": "Connexion échouée. Veuillez vérifier le jeton du bot et l'identifiant."
+  },
+  "completion": {
+    "title": "Configuration Terminée !",
+    "description": "Velix VFS Automator est entièrement configuré et prêt pour l'automatisation.",
+    "summary_title": "Résumé de Configuration",
+    "summary_countries": "Pays Surveillés",
+    "summary_accounts": "Profils Candidats VFS",
+    "summary_notifications": "Canaux d'Alerte Actifs",
+    "telegram": "Intégration Telegram activée",
+    "no_telegram": "Intégration Telegram désactivée",
+    "finish": "Lancer le Tableau de Bord"
+  },
+  "sidebar": {
+    "dashboard": "Tableau de Bord",
+    "countries": "Pays",
+    "bookings": "Réservations",
+    "notifications": "Notifications",
+    "settings": "Paramètres"
+  },
+  "dashboard": {
+    "welcome_msg": "Système de Planification VFS",
+    "resume_all": "Reprendre Tout",
+    "pause_all": "Suspendre Tout",
+    "add_account": "Ajouter un Compte",
+    "active_searches": "Recherches Actives",
+    "appointments_found": "Rendez-vous Trouvés",
+    "total_accounts": "Total des Comptes",
+    "success_rate": "Taux de Réussite",
+    "active_monitors": "Requêtes de Recherche Surveillées",
+    "empty_title": "Aucune recherche active",
+    "searching": "Recherche en cours",
+    "found": "Sécurisé",
+    "failed": "Échoué",
+    "paused": "Suspendu",
+    "recent_activity": "Flux d'Activité Récent"
+  },
+  "countries_page": {
+    "title": "Noeuds de Pays Surveillés"
+  },
+  "bookings_page": {
+    "title": "File d'attente et journal",
+    "export": "Exporter au format CSV"
+  },
+  "notifications_page": {
+    "title": "Journaux d'Alertes et de Notifications",
+    "mark_all_read": "Tout marquer comme lu",
+    "clear_all": "Effacer les journaux"
+  },
+  "settings_page": {
+    "title": "Paramètres Système et Automatisation"
+  }
+}

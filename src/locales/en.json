@@ -1,0 +1,121 @@
+{
+  "common": {
+    "next": "Continue",
+    "back": "Back",
+    "save": "Save Configuration",
+    "loading": "Loading...",
+    "email": "Email Address",
+    "password": "Password",
+    "status": "Status",
+    "error": "Error",
+    "success": "Success",
+    "test": "Test Connection"
+  },
+  "countries": {
+    "pakistan": "Pakistan",
+    "india": "India",
+    "angola": "Angola",
+    "morocco": "Morocco",
+    "algeria": "Algeria",
+    "egypt": "Egypt"
+  },
+  "categories": {
+    "tourist": "Tourist Visa",
+    "business": "Business Visa",
+    "student": "Student Visa",
+    "family": "Family Visit Visa"
+  },
+  "welcome": {
+    "title": "Welcome to Velix VFS Automator",
+    "tagline": "Enterprise-grade desktop assistant for scheduling VFS Global visa booking slots. Automatically scans VAC availability, manages candidate profiles, and notifies you when slots open up.",
+    "cta": "Get Started",
+    "language": "Language"
+  },
+
+  "country_select": {
+    "title": "Target Country Selection",
+    "description": "Choose one or more visa destination countries to automate. You can configure credentials and VAC preferences for each target in the next steps.",
+    "min_selection_alert": "Please select at least one country to continue."
+  },
+  "accounts": {
+    "title": "VFS Account Configuration",
+    "description": "Set up portal credentials and visa types for each target country. You can add multiple applicant profiles per country.",
+    "country_setup": "Configuration for {country}",
+    "add_account": "Add Applicant / VFS Profile",
+    "add_applicant": "Add Candidate",
+    "remove_applicant": "Remove Candidate",
+    "vac_label": "VFS Application Center (VAC)",
+    "category_label": "Visa Category",
+    "firstname": "First Name",
+    "lastname": "Last Name",
+    "passport": "Passport Number",
+    "no_applicants": "At least one candidate profile must be added.",
+    "validation_error": "Please fill in all email, password, and candidate fields correctly."
+  },
+  "notifications": {
+    "title": "Alert Notifications Setup",
+    "description": "Receive immediate updates when visa slots are discovered. Configure desktop pushes, audio alarms, or external Telegram webhooks.",
+    "desktop_label": "Enable Desktop Popups",
+    "desktop_desc": "Displays instant system tray alerts when a slot is secured.",
+    "sound_label": "Play Audio Notification Trigger",
+    "sound_desc": "Plays a looping sound alarm when VFS slots are active.",
+    "telegram_label": "Telegram Webhook Integration",
+    "telegram_desc": "Send real-time alerts to a specific Telegram channel or chat.",
+    "telegram_token": "Telegram Bot API Token",
+    "telegram_chatid": "Target Chat ID",
+    "test_button": "Send Test Telegram Message",
+    "test_sending": "Testing Telegram socket connection...",
+    "test_success": "Test alert successfully sent to Telegram API.",
+    "test_error": "Connection failed. Please verify Bot Token and Chat ID parameters."
+  },
+  "completion": {
+    "title": "Onboarding Complete!",
+    "description": "Velix VFS Automator is fully configured and ready for automation.",
+    "summary_title": "Configuration Summary",
+    "summary_countries": "Monitored Countries",
+    "summary_accounts": "VFS Candidate Profiles",
+    "summary_notifications": "System Alert Channels",
+    "telegram": "Telegram integration enabled",
+    "no_telegram": "Telegram integration disabled",
+    "finish": "Launch Automation Dashboard"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "countries": "Countries",
+    "bookings": "Bookings",
+    "notifications": "Notifications",
+    "settings": "Settings"
+  },
+  "dashboard": {
+    "welcome_msg": "VFS Global Scheduling System",
+    "resume_all": "Resume All",
+    "pause_all": "Pause All",
+    "add_account": "Add Account",
+    "active_searches": "Active Searches",
+    "appointments_found": "Appointments Found",
+    "total_accounts": "Total Accounts",
+    "success_rate": "Success Rate",
+    "active_monitors": "Monitored Account Queries",
+    "empty_title": "No Monitored Queries Active",
+    "searching": "Searching",
+    "found": "Secured",
+    "failed": "Failed",
+    "paused": "Paused",
+    "recent_activity": "Recent Action Feed"
+  },
+  "countries_page": {
+    "title": "Monitored Country Nodes"
+  },
+  "bookings_page": {
+    "title": "Queue & Booking Log",
+    "export": "Export CSV"
+  },
+  "notifications_page": {
+    "title": "Alert Notification Logs",
+    "mark_all_read": "Mark All as Read",
+    "clear_all": "Clear Logs"
+  },
+  "settings_page": {
+    "title": "System & Automation Settings"
+  }
+}
