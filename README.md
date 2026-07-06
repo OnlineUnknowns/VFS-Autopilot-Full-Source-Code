@@ -1,7 +1,6 @@
 <div align="center">
 
 <!-- Animated typing headline -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&pause=1000&color=3B82F6&center=true&vCenter=true&repeat=true&width=700&height=60&lines=🌍+Velix+VFS+Global;Automated+Booking+Engine;Built+with+Rust+%26+Tauri+v1;Smart+Proxy+%26+CAPTCHA+Solving" alt="Velix Typing SVG" />
 
 <!-- Subtitle wave -->
 <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=18&pause=3000&color=94A3B8&center=true&vCenter=true&repeat=true&width=700&height=36&lines=High-performance+native+browser+automation+for+VFS+Global+visa+appointments." alt="Subtitle" />
